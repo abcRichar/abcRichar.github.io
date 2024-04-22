@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Richar",
   description: "技术分享",
-  base: "/",
+  // base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "../svg/苹果水果.svg",
