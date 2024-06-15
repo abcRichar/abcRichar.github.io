@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /frontEnd/index.md
+      link: /frontEnd/
     - theme: alt
       text: GitHub
       link: https://github.com/abcRichar
@@ -26,12 +26,13 @@ features:
     details: 提升前端开发能力，拓展JS基础技术
   - icon: 🛠️
     title: 个人计划
-    details: 学习后端，成为全栈开发！
+    details: 学习Java后端，成为全栈开发！
 ---
 
+<test />
 <script setup>
 import { onMounted } from 'vue'
-
+import test from '../.vitepress/components/test.vue'
 onMounted(() => {
   const urlParams = new URLSearchParams(window.location.search)
 })

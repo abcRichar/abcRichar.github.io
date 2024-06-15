@@ -12,27 +12,27 @@ export default defineConfig({
     logo: "../svg/logo.svg",
     nav: [
       { text: "首页", link: "/" },
-      { text: "前端", link: "/frontEnd/index.md" },
-      { text: "后端", link: "/afterEnd/index.md" },
-      { text: "工具", link: "/devTools/index.md" },
+      { text: "前端", link: "/frontEnd/" },
+      { text: "后端", link: "/afterEnd/" },
+      { text: "工具", link: "/devTools/" },
     ],
     sidebar: {
-      "/frontEnd/index.md": [
+      "/frontEnd/": [
         {
           text: "前端",
-          items: [{ text: "Vue笔记", link: "/frontEnd/index.md" }],
+          items: [{ text: "Vue笔记", link: "/frontEnd/vue-1.md" }],
         },
       ],
-      "/afterEnd/index.md": [
+      "/afterEnd/": [
         {
           text: "后端",
-          items: [{ text: "Java笔记", link: "/frontEnd/index.md" }],
+          items: [{ text: "Java基础", link: "/afterEnd/java-1.md" }],
         },
       ],
-      "/devTools/index.md": [
+      "/devTools/": [
         {
           text: "工具",
-          items: [{ text: "Git笔记", link: "/devTools/index.md" }],
+          items: [{ text: "Git提交规范", link: "/devTools/git-1.md" }],
         },
       ],
     },
